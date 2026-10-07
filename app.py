@@ -31,7 +31,7 @@ st.divider()
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("tmdb_merged_movie_data.csv")
+    df = pd.read_csv("output/tmdb_merged_movie_data.csv")
     return df
 
 
